@@ -156,8 +156,7 @@ this.EseEs();        // TODO add your handling code here:
 
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
 this.setVisible(false);
-eleccion ele=new eleccion();
-ele.setVisible(true);
+
 
     }//GEN-LAST:event_btnSalirActionPerformed
 

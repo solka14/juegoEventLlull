@@ -65,12 +65,11 @@ if(contador==20 && ganar==false) {
         jLabel1 = new javax.swing.JLabel();
         btnAceptar = new javax.swing.JButton();
         btnNumero = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        btnSalir = new javax.swing.JButton();
         txtNumero = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(800, 600));
         getContentPane().setLayout(null);
 
         jLabel1.setBackground(new java.awt.Color(255, 102, 102));
@@ -98,16 +97,16 @@ if(contador==20 && ganar==false) {
         getContentPane().add(btnNumero);
         btnNumero.setBounds(217, 38, 48, 20);
 
-        jButton1.setBackground(new java.awt.Color(255, 0, 255));
-        jButton1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jButton1.setText("Salir");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btnSalir.setBackground(new java.awt.Color(255, 0, 255));
+        btnSalir.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        btnSalir.setText("Salir");
+        btnSalir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btnSalirActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1);
-        jButton1.setBounds(263, 230, 100, 23);
+        getContentPane().add(btnSalir);
+        btnSalir.setBounds(263, 230, 100, 23);
 
         txtNumero.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         txtNumero.setForeground(new java.awt.Color(102, 255, 153));
@@ -142,11 +141,10 @@ if(contador==20 && ganar==false) {
                
     }//GEN-LAST:event_btnNumeroActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
 this.setVisible(false);  
-eleccion ele=new eleccion();
-ele.setVisible(true);
-    }//GEN-LAST:event_jButton1ActionPerformed
+
+    }//GEN-LAST:event_btnSalirActionPerformed
 
     /**
      * @param args the command line arguments
@@ -186,7 +184,7 @@ ele.setVisible(true);
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAceptar;
     private javax.swing.JTextField btnNumero;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btnSalir;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel txtNumero;
