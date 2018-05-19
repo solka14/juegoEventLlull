@@ -15,7 +15,7 @@ public class compuAdivina extends javax.swing.JFrame {
         this.setSize(582,350);
     }
      int numAleatorio=(int)(1+(Math.random()*100));
-     int minimo=0;
+     int minimo=1;
      int maximo=100;
      int contador=0;
 public int adivinaVos(){
