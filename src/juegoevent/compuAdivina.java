@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package juegoevent;
 
 import java.util.Scanner;
@@ -13,9 +9,7 @@ import java.util.Scanner;
  */
 public class compuAdivina extends javax.swing.JFrame {
 
-    /**
-     * Creates new form compuAdivina
-     */
+  
     public compuAdivina() {
         initComponents();
         this.setSize(582,350);
@@ -70,7 +64,6 @@ public void EseEs(){
          
     
 }
-
    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
